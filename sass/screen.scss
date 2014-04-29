@@ -5,8 +5,31 @@
 
 @import "compass/reset";
 
-$grey : #ccc;
+$bodyFontFamily: 'Times';
+$bodyFontSize: 16px;
+$bodyFontColor:#222222;
 
-p {
-	color:$grey;
+body {
+	font-family:$bodyFontFamily;
+	color: $bodyFontColor;
+	font-size:$bodyFontSize;
 }
+
+h1 {
+	font-size:24px;
+	padding:10px;
+}
+
+h2 {
+	font-size:18px;
+	padding:10px;
+}
+
+ul {
+	
+	font-size:16px;
+	list-style:circles;
+
+	li {
+	}
+}				
