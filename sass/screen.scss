@@ -8,6 +8,7 @@
 $bodyFontFamily: 'Times';
 $bodyFontSize: 16px;
 $bodyFontColor:#222222;
+$anchorColor:#6666ff;
 
 body {
 	font-family:$bodyFontFamily;
@@ -16,12 +17,12 @@ body {
 }
 
 h1 {
-	font-size:24px;
+	font-size:64px;
 	padding:10px;
 }
 
 h2 {
-	font-size:18px;
+	font-size:48px;
 	padding:10px;
 }
 
@@ -34,5 +35,11 @@ ul {
 	li {
 		display:inline;
 		padding:5px;
+		
+		a {
+			text-decoration:none;
+			color:$anchorColor;
+		}
+
 	}
 }				

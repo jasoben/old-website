@@ -67,34 +67,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 13, ../sass/screen.scss */
 body {
   font-family: "Times";
   color: #222222;
   font-size: 16px;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 h1 {
-  font-size: 24px;
+  font-size: 64px;
   padding: 10px;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 h2 {
-  font-size: 18px;
+  font-size: 48px;
   padding: 10px;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 ul {
   display: block;
   padding: 10px;
   font-size: 16px;
   list-style-type: circle;
 }
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 ul li {
   display: inline;
   padding: 5px;
+}
+/* line 39, ../sass/screen.scss */
+ul li a {
+  text-decoration: none;
+  color: #6666ff;
 }
