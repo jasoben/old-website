@@ -9,6 +9,7 @@ $bodyFontFamily: 'Times';
 $bodyFontSize: 16px;
 $bodyFontColor:#222222;
 $anchorColor:#6666ff;
+$anchorHoverColor:#6666ff;
 
 body {
 	font-family:$bodyFontFamily;
@@ -39,6 +40,10 @@ ul {
 		a {
 			text-decoration:none;
 			color:$anchorColor;
+		}
+		
+		a:hover {
+			color:$anchorHoverColor;
 		}
 
 	}
