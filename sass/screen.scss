@@ -10,6 +10,7 @@ $bodyFontSize: 16px;
 $bodyFontColor:#222222;
 $anchorColor:#6666ff;
 $anchorHoverColor:#666699;
+$headingColor:#444444;
 
 body {
 	font-family:$bodyFontFamily;
@@ -20,11 +21,13 @@ body {
 h1 {
 	font-size:64px;
 	padding:10px;
+	color:$headingColor;
 }
 
 h2 {
 	font-size:48px;
 	padding:10px;
+	color:$headingColor - 3;
 }
 
 ul {
