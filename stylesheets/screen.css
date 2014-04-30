@@ -116,7 +116,7 @@ ul#mainmenu li a {
   text-decoration: none;
   color: #6666ff;
   opacity: .8;
-  margin-right: 10px;
+  margin-right: 1em;
 }
 /* line 60, ../sass/screen.scss */
 ul#mainmenu li a:hover {
