@@ -76,7 +76,7 @@ body {
 
 /* line 21, ../sass/screen.scss */
 h1 {
-  font-size: 95px;
+  font: 95px/1 "Times";
   padding: 10px;
   color: #444444;
 }
