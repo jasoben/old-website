@@ -109,7 +109,7 @@ ul#mainmenu {
 /* line 49, ../sass/screen.scss */
 ul#mainmenu li {
   display: inline;
-  padding: 5px;
+  padding: 0px;
 }
 /* line 53, ../sass/screen.scss */
 ul#mainmenu li a {
