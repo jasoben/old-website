@@ -12,10 +12,17 @@ $anchorColor:#6666ff;
 $anchorHoverColor:#222222;
 $headingColor:#444444;
 
+.container {
+	width: 84%;
+	margin:0 auto;
+	max-width:1140px;
+}
+
 body {
 	font-family:$bodyFontFamily;
 	color: $bodyFontColor;
 }
+
 
 h1 {
 	padding:10px;
