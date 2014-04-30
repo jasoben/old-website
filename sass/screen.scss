@@ -50,10 +50,10 @@ ul#mainmenu {
 		display:inline;
 		padding:5px;
 		
-		opacity:.6;	
 		a {
 			text-decoration:none;
 			color:$anchorColor;
+			opacity:.6;
 		}
 		
 		a:hover {
