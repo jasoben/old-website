@@ -102,32 +102,34 @@ h2 {
 /* line 43, ../sass/screen.scss */
 ul#randomlist {
   list-style-type: none;
+  width: 100%;
+  display: block;
 }
-/* line 46, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 ul#randomlist li {
   display: none;
 }
 
-/* line 50, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 ul#mainmenu {
   display: block;
   width: 100%;
   padding: 10px;
   list-style-type: circle;
 }
-/* line 56, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 ul#mainmenu li {
   display: inline;
   padding: 0px;
 }
-/* line 60, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 ul#mainmenu li a {
   text-decoration: none;
   color: #6666ff;
   opacity: .8;
   margin-right: .8em;
 }
-/* line 67, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 ul#mainmenu li a:hover {
   color: #6666bb;
 }
