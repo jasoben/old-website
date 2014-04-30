@@ -89,23 +89,23 @@ h2 {
 }
 
 /* line 33, ../sass/screen.scss */
-ul {
+ul#mainmenu {
   display: block;
   padding: 10px;
   font-size: 16px;
   list-style-type: circle;
 }
 /* line 39, ../sass/screen.scss */
-ul li {
+ul#mainmenu li {
   display: inline;
   padding: 5px;
 }
 /* line 43, ../sass/screen.scss */
-ul li a {
+ul#mainmenu li a {
   text-decoration: none;
   color: #6666ff;
 }
 /* line 48, ../sass/screen.scss */
-ul li a:hover {
+ul#mainmenu li a:hover {
   color: #666699;
 }
