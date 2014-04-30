@@ -18,6 +18,11 @@ $headingColor:#444444;
 	max-width:1140px;
 }
 
+header {
+	width:100%;
+	margin:0px auto;
+}
+
 body {
 	font-family:$bodyFontFamily;
 	color: $bodyFontColor;
