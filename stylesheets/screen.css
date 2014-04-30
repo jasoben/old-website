@@ -71,40 +71,38 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   font-family: "Oswald", sans-serif;
   color: #222222;
-  font-size: 16px;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
 h1 {
-  font: 95px/1 "Times";
   padding: 10px;
   color: #444444;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 h2 {
   padding: 10px;
   color: #303030;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 ul#mainmenu {
   display: block;
   padding: 10px;
   font-size: 16px;
   list-style-type: circle;
 }
-/* line 38, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 ul#mainmenu li {
   display: inline;
   padding: 5px;
 }
-/* line 42, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 ul#mainmenu li a {
   text-decoration: none;
   color: #6666ff;
 }
-/* line 47, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 ul#mainmenu li a:hover {
   color: #222222;
 }

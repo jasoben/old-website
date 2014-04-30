@@ -15,11 +15,9 @@ $headingColor:#444444;
 body {
 	font-family:$bodyFontFamily;
 	color: $bodyFontColor;
-	font-size:$bodyFontSize;
 }
 
 h1 {
-	font:95px/1 "Times";
 	padding:10px;
 	color:$headingColor;
 }
