@@ -40,6 +40,13 @@ h2 {
 	color:$headingColor - 20;
 }
 
+ul#randomlist {
+	list-style-type:none;
+	
+	li {
+		display:none;
+	}
+}
 ul#mainmenu {
 	display:block;
 	width:100%;

@@ -29,7 +29,15 @@
 	<div class="container">
 		<header>
 			<h1 id="responsive_header">Jason Clinton Bennett</h1>
-			<h2 id="responsive_header2">Master of the Internet</h2>
+			<ul id="randomlist">
+				<li><h2 id="responsive_header2">Master of the Internet</h2></li>
+				<li><h2 id="responsive_header2">Creator of the Internet</h2></li>
+				<li><h2 id="responsive_header2">Zombie of the Internet</h2></li>
+				<li><h2 id="responsive_header2">Killer of the Internet</h2></li>
+				<li><h2 id="responsive_header2">Zeus of the Internet</h2></li>
+				<li><h2 id="responsive_header2">Thor of the Internet</h2></li>
+				<li><h2 id="responsive_header2">Hellspawn of the Internet</h2></li>
+			</ul>
 		</header>
 
 		<ul id="mainmenu">
@@ -48,7 +56,17 @@
 	jQuery("#responsive_header2").fitText(1.4);
 	jQuery("#mainmenu").fitText(3);
 </script>
-
+<script>
+	$(function(){
+ 
+  var list = $("ul#randomlist li").toArray();
+  var elemlength = list.length;
+  var randomnum = Math.floor(Math.random()*elemlength);
+  var randomitem = list[randomnum];
+  $(randomitem).css("display", "block");
+ 
+});
+</script>
 </html>
 
 
