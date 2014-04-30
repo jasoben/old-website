@@ -9,22 +9,6 @@
 	  <![endif]-->
 
 </head>
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script>
-	$(document).ready(function(){
-		$('.menuitem').find('a').hover(
-
-			function(){
-				$(this).animate({opacity: 1}, 100, function() { }); 
-			} ///gets called when hover in
-			,
-
-			function(){
-				$(this).animate({opacity: .8}, 100, function() {}); 
-			}//gets called when hover out
-		);
-	}); 
-</script>
 <body>
 	<div class="container">
 		<header>
@@ -66,6 +50,22 @@
 	jQuery("#responsive_header").fitText();
 	jQuery("#randomlist").fitText(1.4);
 	jQuery("#mainmenu").fitText(3);
+</script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.menuitem').find('a').hover(
+
+			function(){
+				$(this).animate({opacity: 1}, 100, function() { }); 
+			} ///gets called when hover in
+			,
+
+			function(){
+				$(this).animate({opacity: .8}, 100, function() {}); 
+			}//gets called when hover out
+		);
+	}); 
 </script>
 </html>
 
