@@ -33,6 +33,13 @@ body {
 h1 {
 	padding:10px;
 	color:$headingColor;
+	a {
+		text-decoration:none;
+		color:$headingColor;
+	}
+	a:hover {
+		text-decoration:underline;
+	}
 }
 
 h2 {

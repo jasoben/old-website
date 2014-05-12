@@ -92,44 +92,53 @@ h1 {
   padding: 10px;
   color: #444444;
 }
+/* line 36, ../sass/screen.scss */
+h1 a {
+  text-decoration: none;
+  color: #444444;
+}
+/* line 40, ../sass/screen.scss */
+h1 a:hover {
+  text-decoration: underline;
+}
 
-/* line 38, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 h2 {
   padding: 10px;
   color: #303030;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 ul#randomlist {
   list-style-type: none;
   width: 100%;
   display: block;
 }
-/* line 48, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 ul#randomlist li {
   display: none;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 ul#mainmenu {
   display: block;
   width: 100%;
   padding: 10px;
   list-style-type: circle;
 }
-/* line 58, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 ul#mainmenu li {
   display: inline;
   padding: 0px;
 }
-/* line 62, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 ul#mainmenu li a {
   text-decoration: none;
   color: #6666ff;
   opacity: .8;
   margin-right: .8em;
 }
-/* line 69, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 ul#mainmenu li a:hover {
   color: #6666bb;
 }
