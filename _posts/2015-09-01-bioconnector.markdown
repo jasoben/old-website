@@ -7,6 +7,6 @@ alt: BioConnector Graphic
 project-date: September 2015
 client: University of Virginia Health Sciences Library
 category: Graphic Design
-description: A conceptual graphic for the BioConnector room in the library. 
+description: A conceptual graphic for the BioConnector room in the University of Virginia Health Sciences Library. 
 
 ---
